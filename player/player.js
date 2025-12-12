@@ -129,7 +129,7 @@ class ArtworkPlayer {
     document.addEventListener('keydown', (e) => {
       // Press Escape to quit the application
       if (e.key === 'q') {
-        ipcRenderer.send('quit-app');
+        // ipcRenderer.send('quit-app');
       }
       
       // Arrow keys for manual navigation (for testing)
